@@ -1,12 +1,11 @@
 *{
     color: #fff;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
 }
 body{
+    margin: 0;
     background-color: #2C446F;
-}
-h2{
-    border-bottom: solid 1px;
 }
 section{
     padding-top: 0.5em;
@@ -15,7 +14,12 @@ section{
 p, ul, ol, li, span{
     font-size: 1em;
     color: lightgray;
+    line-height: 1.5;
+    margin-top: 0;
     margin-bottom: 0;
+}
+ul, ol{
+    padding-left: 2rem;
 }
 i{
     font-size: 25px
@@ -84,13 +88,22 @@ i{
 }
 h1{
     font-size: 2em;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 h2{
+    border-bottom: solid 1px;
     font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 h3{
     font-size: 1.25em;
+    font-weight: 500;
     padding-top: 0.25em;
+    margin-top: 0;
     margin-bottom: 0;
 }
 @media(max-width:600px){
