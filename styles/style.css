@@ -24,7 +24,7 @@ ul, ol{
 i{
     font-size: 25px
 }
-.bar-navigation{
+.navbar-container{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -34,24 +34,37 @@ i{
     top: 0;
     width: 100%;
 }
-.bar-header{
+.navbar-header{
     float: left;
     display: block;
+    font-size: 1em;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-.item-navigation{
+.navbar-item{
     float: left;
     display: block;
+    font-size: 1em;
     color: white;
+    background-color: #333;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-.item-navigation:hover{
+.navbar-item:hover{
     background-color: #111;
+}
+.navbar-footer{
+    float: right;
+    display: block;
+    font-size: 1em;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 .container-main{
     background-color: #131415;
